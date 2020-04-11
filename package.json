@@ -5,11 +5,12 @@
     "main": "build/bot.js",
     "author": "Fraser Provan",
     "dependencies": {
-        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6"
+        "chalk": "^4.0.0",
+        "discord.js": "^12.1.1",
+        "loglevel": "^1.6.7"
     },
     "scripts": {
-        "build": "npx webpack --config webpack.config.js",
-        "run": "node build/bot.js"
+        "start": "node src/index.js"
     },
     "devDependencies": {
         "ts-loader": "^6.2.2",
@@ -18,7 +19,7 @@
         "webpack-cli": "^3.3.11",
         "webpack-dev-server": "^3.10.3"
     },
-    "browser":{
+    "browser": {
         "child_process": false
-    }  
+    }
 }
