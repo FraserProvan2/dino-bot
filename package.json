@@ -6,8 +6,10 @@
     "author": "Fraser Provan",
     "dependencies": {
         "chalk": "^4.0.0",
+        "cheerio": "^1.0.0-rc.3",
         "discord.js": "^12.1.1",
-        "loglevel": "^1.6.7"
+        "loglevel": "^1.6.7",
+        "xmlhttprequest": "^1.8.0"
     },
     "scripts": {
         "start": "node src/index.js"

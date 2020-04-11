@@ -1,3 +1,7 @@
+const request = require('request');
+const cheerio = require('cheerio');
+const nhm_dict = "https://www.nhm.ac.uk/discover/dino-directory/name/name-az-all.html";
+
 module.exports = {
   getRandomDino: () => {
     return {
@@ -7,3 +11,14 @@ module.exports = {
   },
 }
 
+function getDinoDirectory() {
+
+  // let $ = cheerio.load(html);
+  // $('p.dinosaurfilter--name').each((index, element) => {
+  //   let dino_name = element.children[0].data.trim();
+  //   dino_dict.push(dino_name);
+  // });
+
+  // return dino_dict;
+}
+getDinoDirectory();
