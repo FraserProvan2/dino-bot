@@ -14,17 +14,14 @@ client.on("ready", () => {
 
 // routing commands
 client.on("message", (msg) => {
-  // !random
-  if (msg.content === "!random") {
+  // !dino
+  if (msg.content === "!dino") {
     dino = crawler.getRandomDino();
-    msg.reply(dino.name, { 
+    msg.reply(dino.message, { 
       files: [dino.img_src] 
     });
   }
-  // add others
 });
 
 // logs in
 client.login(env.botToken);
-
-// https://discordapp.com/oauth2/authorize?&client_id=698349668479795241&scope=bot&permissions=8
