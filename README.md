@@ -30,7 +30,3 @@ DinoBot is a Discord bot that provides dinosaur profiles and learning resources.
 
 To invite to your server use the following URL with **YOUR** client id:
 `https://discordapp.com/oauth2/authorize?&client_id=ID&scope=bot&permissions=8`
-
-#### Testing
-1. Run `npm test`
-
